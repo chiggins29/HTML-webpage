@@ -1,12 +1,30 @@
 body {
-	background-color: grey;
+	background: url('');
+	-webkit-animantion: myAnimation 5s infinite;
+	animantion: myAnimation 5s infinite;
 }
+
+@-webkit-keyframe 'myAnimation' {
+	50% {
+			background-color: red;
+	}
+}
+
+@keyframes 'myAnimation' {
+	50% {
+			background-color: red;
+	}
+}
+
 
 h1 {
 	font-family: impact;
 }
 
+#id's {
 
-.divnum1 {
+}
+
+.divnum1(class) {
 	background-color: green;
 }
