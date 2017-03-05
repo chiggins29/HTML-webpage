@@ -21,10 +21,9 @@ h1 {
 	font-family: impact;
 }
 
-#id's {
 
-}
-
-.divnum1(class) {
+.divnum1 {
 	background-color: green;
+	border: 10px black;
+	border-left: 5px blue;
 }
