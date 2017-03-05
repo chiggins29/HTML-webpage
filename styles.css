@@ -24,6 +24,9 @@ h1 {
 
 .divnum1 {
 	background-color: green;
-	border: 10px black;
-	border-left: 5px blue;
+	border: 10px black; "add border to all sides"
+	border-left: 5px blue; "Just add border to left side"
+	border-radius: "How to adjust your border radius. make things a circle or rounded edges."
+	width: "if you use pixels it will ignore padding and other styles, if you use percents it will take those into account";
+	height: "";
 }
