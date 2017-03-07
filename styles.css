@@ -1,32 +1,66 @@
 body {
-	background: url('');
-	-webkit-animantion: myAnimation 5s infinite;
-	animantion: myAnimation 5s infinite;
+	background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv30ZxuZyG0ZFo9HyeEyH4fd0pl6yhKcwg8JHDeJG2SrClJuaUsg');
+	background-size: cover;
 }
 
-@-webkit-keyframe 'myAnimation' {
-	50% {
-			background-color: red;
-	}
+#link_to {
+	margin: auto;
 }
-
-@keyframes 'myAnimation' {
-	50% {
-			background-color: red;
-	}
-}
-
-
-h1 {
-	font-family: impact;
-}
-
 
 .divnum1 {
-	background-color: green;
-	border: 10px black; "add border to all sides"
-	border-left: 5px blue; "Just add border to left side"
-	border-radius: "How to adjust your border radius. make things a circle or rounded edges."
-	width: "if you use pixels it will ignore padding and other styles, if you use percents it will take those into account";
-	height: "";
+	background: grey;
+	border: 2px solid black;
+	padding-left: 5px;
+	width: 100%;
+	text-align: center;
+
 }
+
+.divnum2 {
+	border: 2px solid black;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	width: 100%;
+	text-align: center;
+
+} 
+
+.divnum3 {
+
+
+
+}
+
+.divnum4 {
+
+
+
+}
+
+.image {
+	
+}
+
+.link {
+	display: inline;
+	text-decoration: none;
+}
+
+a:hover {
+	background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
