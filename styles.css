@@ -37,20 +37,33 @@ body {
 
 }
 
-.image {
-	
+
+.links {
+	display: flex;
+	text-decoration: none;
 }
 
-.link {
-	display: inline;
-	text-decoration: none;
+.my-links {
+	width: 100%;
+	text-align: center;
 }
 
 a:hover {
 	background: pink;
 }
 
+.main-div {
+	background-color: grey;
+	height: 200px;
+	border: 2px solid black;
+	display: flex;
+}
 
+.my-div {
+	border: 2px solid black;
+	width: 100%;
+	margin: 5px;
+}
 
 
 
