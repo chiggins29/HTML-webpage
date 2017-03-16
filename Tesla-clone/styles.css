@@ -1,0 +1,109 @@
+body {
+	 background: url('https://tctechcrunch2011.files.wordpress.com/2012/07/model-s-alpha-and-roadster_960x640_h.jpg?w=600') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Gotham', sans-serif;
+}
+
+#container {
+	margin: auto;
+	width: 100%;
+}
+
+#header {
+	height: 40px;
+}
+
+#logo img {
+	width: 100px;
+	float: left;
+	position: absolute;
+	padding-top: 3px;
+}
+
+#left-nav {
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+#right-nav {
+	float: right;
+	margin-right: 15px
+}
+
+#left-nav a {
+	font-size: .8em;
+	color: white;
+	text-decoration: none;
+	margin: 15px;
+}
+
+#right-nav a {
+	font-size: .8em;
+	color: white;
+	text-decoration: none;
+	margin: 15px;
+}
+
+#content {
+	margin-top: 15%;
+	height: 100px;
+}
+
+#marketing-content {
+	text-align: center;
+	color: white;
+}
+
+#line-1 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+#line-2 {
+	font-size: 1.2em;
+}
+
+#buttons {
+	text-align: center;
+	opacity: .8;
+	color: rgba(0, 0, 0, 0.50);
+}
+
+.button {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: black;
+	color: white; 
+	padding: 10px 24px 10px 24px;
+	max-width: 30px;
+	border: 1px solid transparent;
+}
+
+#buttons a {
+	text-decoration: none;
+	font-size: .9em;
+}
+
+.button:hover {
+	border: 1px solid white;
+}
+
+#footer {
+	position:absolute;
+  bottom:0;
+  width:1300px;
+  height:30px;
+  text-align: center;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: white;
+	font-size: .8em;
+	margin-left: 20px;
+}
+
